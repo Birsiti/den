@@ -1,3 +1,4 @@
+<? require_once ('config/config.php'); ?>
 <!doctype html>
 <html>
 <head>
@@ -12,31 +13,31 @@
 <body>
 <div id='header'>
 <img src='media/img/logo.png' alt='логотип' id='logo'>
-<h1 class='logotext'>Name of site</h1>
+<h1 class='logotext'>Первый сайт</h1>
 </div>
 <div>
 <nav class='menutop'>
-<a href="#" >главная</a>
-<a href="#" >новости</a>
-<a href="#" >разное</a>
-<a href="#" >иное</a>
-<a href="#" >прочее</a>
+<a href="/" >главная</a>
+<a href="/index.php? url=dop" >Аксекссуары</a>
+<a href="/index.php? url=atv" >Квадроциклы</a>
+<a href="/index.php? url=remont" >Ремзона</a>
+<a href="/index.php? url=shlem" >Экиперовка</a>
     </nav>
 </div>
 <div class='col-md-2'>
-муню
+Меню
 <a href='#' class='btn btn-block btn-success' >
-разработка сайтов
+Разработка сайтов
 </a>
 
 <a href='#' class='btn btn-block btn-primary' >
-продвижеен сайтов
+Продвижение сайтов
 </a>
 <a href='#' class='btn btn-block btn-primary' >
-продвижеен сайтов
+Верстка сайтов
 </a>
 <a href='#' class='btn btn-block btn-primary' >
-продвижеен сайтов
+Иное
 </a>
 </div>
 <div class='col-md-8'>
