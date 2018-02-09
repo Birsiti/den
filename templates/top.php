@@ -16,6 +16,12 @@
 <h1 class='logotext'>Первый сайт</h1>
 </div>
 <div>
+<a href="/reg.php" class='btn btn-block btn-success' >
+Регистрация</a>
+
+
+</div>
+<div>
 <nav class='menutop'>
 <a href="/" >главная</a>
 <a href="/index.php? url=dop" >Аксекссуары</a>

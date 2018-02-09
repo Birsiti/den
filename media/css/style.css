@@ -1,4 +1,7 @@
-.body 
+<! # перпед id    
+      . перед class>
+
+#body 
 {padding:0;
 margin:0;}
 #header
@@ -31,4 +34,13 @@ border-left: solid 1px black;
 	padding:50px;
 	text-align:center;
 	background:gold;
+}
+
+.errors{
+	color: red;
+	background: wait;
+	padding: 5px
+}
+.form-group{
+padding: 3px;
 }

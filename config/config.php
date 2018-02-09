@@ -1,4 +1,4 @@
-<?php
+<?php  
 $dblocation='localhost'; 
 $dbname='den'; 
 $dbuses='root';
