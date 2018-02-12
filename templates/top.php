@@ -1,4 +1,7 @@
-<? require_once ('config/config.php'); ?>
+<?session_start();
+require_once ('config/config.php'); 
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -15,12 +18,7 @@
 <img src='media/img/logo.png' alt='логотип' id='logo'>
 <h1 class='logotext'>Первый сайт</h1>
 </div>
-<div>
-<a href="/reg.php" class='btn btn-block btn-success' >
-Регистрация</a>
 
-
-</div>
 <div>
 <nav class='menutop'>
 <a href="/" >главная</a>
@@ -28,7 +26,22 @@
 <a href="/index.php? url=atv" >Квадроциклы</a>
 <a href="/index.php? url=remont" >Ремзона</a>
 <a href="/index.php? url=shlem" >Экиперовка</a>
+<? 
+if(isset($_SESSION['used_id'])){
+	?>
+	<a href ="cabinet.php">кабинет</a>
+    <a href ="logout.php">выход</a>
+	<?
+}else{
+	?>
+		<a href ="login.php">Вход</a>
+    <a href ="reg.php">Регистрация</a>
+	<?
+}
+?>
+
     </nav>
+
 </div>
 <div class='col-md-2'>
 Меню

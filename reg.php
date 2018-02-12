@@ -49,7 +49,7 @@ echo '</pre>';
 
 ?> 
 <! регистрация с сайта getbootstrap.com>
-<h2> Регистрация <h1>
+<h2> Регистрация </h2>
 
 <form method="post" action="reg.php">
  <div class="form-group">
