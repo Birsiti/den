@@ -15,7 +15,7 @@ $ar=mysqli_fetch_array ($adr);
 
 ?>
 
-<h2> <?=$ar['name'];?>
+<h2> <?=$ar['name'];?> </h2>
 <div>
 <?=$ar['body'];?>
 </div>

@@ -29,7 +29,7 @@ require_once ('config/config.php');
 <? 
 if(isset($_SESSION['used_id'])){
 	?>
-	<a href ="cabinet.php">кабинет</a>
+	<a href ="kabinet.php">кабинет</a>
     <a href ="logout.php">выход</a>
 	<?
 }else{
