@@ -103,7 +103,7 @@ if (!$cat){
 	<!--редактор  ckeditor -->
 	<form id="form2" name="form2" method="post" action="">
     <textarea name="ckeditor" id="editor1" class="ckeditor" cols="45" rows="5"></textarea>
-	<button type="submit" class="">button</button>
+	<button type="submit" class="">Добавить</button>
 	
 </form>
 	<?

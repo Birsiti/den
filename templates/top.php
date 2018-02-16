@@ -12,20 +12,23 @@ require_once ('config/config.php');
 <link rel='stylesheet' href='media/css/style.css' />
 <link rel='stylesheet' href='media/bootstrap-3.3.7/css/bootstrap.min.css' />
 <meta name='автор' >
+<script src ="media/js/jquery-3.3.1.min.js"> </script>
+<!<link href='media/js/main.js' type='text/javascript'>> 
+<script src ="media/js/main.js"> </script>
 </head>
 <body>
-<div id='header'>
+<div class='header'>
 <img src='media/img/logo.png' alt='логотип' id='logo'>
 <h1 class='logotext'>Первый сайт</h1>
 </div>
 
 <div>
 <nav class='menutop'>
-<a href="/" >главная</a>
-<a href="/index.php? url=dop" >Аксекссуары</a>
-<a href="/index.php? url=atv" >Квадроциклы</a>
-<a href="/index.php? url=remont" >Ремзона</a>
-<a href="/index.php? url=shlem" >Экиперовка</a>
+<a href="/" data-url="media/img/about.jpg" data-title="О компании">главная</a>
+<a href="/" data-url="media/img/acsessuar.jpg" data-title="О компании 2">Аксекссуары</a>
+<a href="/" data-url="media/img/about.jpg" data-title="О компании 3">Квадроциклы</a>
+<a href="/" data-url="media/img/about.jpg" data-title="О компании 4">Ремзона</a>
+<a href="/" data-url="media/img/about.jpg" data-title="О компании 5">Экиперовка</a>
 <? 
 if(isset($_SESSION['used_id'])){
 	?>

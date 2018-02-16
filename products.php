@@ -11,7 +11,11 @@ while ($arr=mysqli_fetch_array($cat)){
 	<div>
 	<div class='col-md-4'>
 		<h3><?=$arr['name'];?> </h3>
+	<a href='#' class='link' data_id="<?=$arr['id'];
+	?>">
+		
 	<img src="/media/uploads/<?=($arr['picters']!=''?$arr['picters']:'net-photo.png')?>" width="250" haight="250">
+	</a>
 	</div>
 	</div>
 	<?

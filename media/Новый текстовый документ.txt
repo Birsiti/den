@@ -1,0 +1,4 @@
+$('header.header').css({
+			'background-image':'media/img/fon2.jpg',
+			'color':'black'
+		});
