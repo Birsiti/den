@@ -32,8 +32,11 @@ require_once ('config/config.php');
 <? 
 if(isset($_SESSION['used_id'])){
 	?>
-	<a href ="kabinet.php">кабинет</a>
+	<a href ="products.php">Товары</a>
+	<a href ="cart.php">карзина</a>
+	<a href ="kabinet.php">+товар</a>
     <a href ="logout.php">выход</a>
+	
 	<?
 }else{
 	?>

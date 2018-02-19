@@ -55,9 +55,11 @@ padding: 3px;
 	box-shadow:1px 1px 1px black;
 	background:wait;
 	border-radius:6px;
+	
+	
 }
 
-.model-close-btn{
+.modal-close-btn{
 	position:absolute;
 	top:2px;
 	right:2px;

@@ -25,6 +25,13 @@ $(function(){
 			
 		});
 		}).appendTo(modal); 
+		$.ajax({
+			url:'ajax.php',
+			type:'post',
+			data:"id="+id,
+			success:function(data){modal.append(data);},
+			error:function(msq){modal.append(msq);}
+		});
 		});
 		
 });
