@@ -1,4 +1,8 @@
 <? require_once ('templates/top.php'); 
+
+if(isset($_GET['url'])){
+	echo "Спасибо, жди звонка";
+} 
 if($_COOKIE){
 	$summa = 0;
 	$poz = 1;
@@ -55,7 +59,25 @@ if($_COOKIE){
 <tr>
 <td>Итого</td>
 <td><?=$summa?></td>
+
 </tr>
 </table>
+<form method="post" action="order.php">
+	<div class="form-group">
+    <label for="email">email</label>
+    <input required type="text" class="form-control" id="email" name="email" placeholder="email">
+  </div>
+  <div class="form-group">
+    <label for="phone">phone</label>
+    <input required type="phone" class="form-control" id="phone" name="phone" placeholder="phone">
+  </div>
+  <div class="form-group">
+    <label for="others">Комент</label>
+    <input required type="others" class="form-control" id="others" name="others" placeholder="others">
+  </div>
+
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 <?php
 ?>

@@ -17,6 +17,9 @@ $arr=mysqli_fetch_array($res);
 <p>Дата:<?=$arr['putdate']?></p>
 <p>Цена:<?=$arr['prise']?></p>
 
- 
+
+
+
+
 <button type="submit" class="btn btn-primary-outline">Купить</button>
 </form>

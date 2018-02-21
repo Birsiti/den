@@ -8,7 +8,7 @@ $code=$_POST['code'];
 $prise=$_POST['prise'];
 $catalog=$_POST['catalog'];
 $picture='';
-
+$ckeditor=$_POST['ckeditor'];
 
 
 if (!$name){$erors[]='Заполните поле';
